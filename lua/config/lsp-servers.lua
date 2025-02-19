@@ -6,6 +6,8 @@ local servers = {
     },
     clangd = {},
     ts_ls = {},
+    rust_analyzer = {},
+    
 }
 -- local servers = {
 --     pyright = {
