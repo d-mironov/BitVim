@@ -36,8 +36,8 @@ nnoremap("sv", "<C-W>v", { desc = "[S]plit [V]ertical"})
 nnoremap("sh", "<C-W>s", { desc = "[S]plit [H]orizontal"})
 
 -- Open file explorer
-vnoremap("fe", "<CMD>NvimTreeToggle<CR>", { desc = "Open file explorer"})
-nnoremap("fe", "<CMD>NvimTreeToggle<CR>", { desc = "Open file explorer"})
+vnoremap("<leader>fe", "<CMD>NvimTreeToggle<CR>", { desc = "Open file explorer"})
+nnoremap("<leader>fe", "<CMD>NvimTreeToggle<CR>", { desc = "Open file explorer"})
 --vnoremap("fe", "<CMD>NERDTreeToggle<CR>", { desc = "Open file explorer"})
 --nnoremap("fe", "<CMD>NERDTreeToggle<CR>", { desc = "Open file explorer"})
 

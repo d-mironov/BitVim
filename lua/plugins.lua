@@ -182,15 +182,15 @@ require("lazy").setup({
             require("config.indent-blankline")
         end,
     },
-    -- {
-    --     "rcarriga/nvim-notify",
-    --     config = function()
-    --         require('notify').setup({
-    --             background_colour = '#000000',
-    --         })
-    --         vim.notify = require("notify")
-    --     end,
-    -- },
+    {
+        "rcarriga/nvim-notify",
+        config = function()
+            require('notify').setup({
+                background_colour = '#000000',
+            })
+            vim.notify = require("notify")
+        end,
+    },
     {
         "folke/noice.nvim",
         event = "VeryLazy",
@@ -208,20 +208,6 @@ require("lazy").setup({
         lazy = false,
     },
     'ziglang/zig.vim',
-    -- {
-    --     'ray-x/go.nvim',
-    --     dependencies = {
-    --         'ray-x/guihua.lua',
-    --         'neovim/nvim-lspconfig',
-    --         'nvim-treesitter/nvim-treesitter',
-    --     },
-    --     config = function()
-    --         require('go').setup()
-    --     end,
-    --     event = {'CmdlineEnter'},
-    --     ft = {'go', 'gomod'},
-    --     build = ':lua require("go.install").update_all_sync()'
-    -- },
     {
         'andweeb/presence.nvim',
         config = function()

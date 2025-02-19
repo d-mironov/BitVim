@@ -6,12 +6,4 @@ require("ibl").setup{
     exclude = {
         filetypes = {"dashboard"},
     },
-    indent = {
-        char = "|",
-        highlight = "IblChar",
-    },
-    scope = {
-        char = "|",
-        highlight = "IblScopeChar",
-    },
 }
